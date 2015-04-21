@@ -1,4 +1,4 @@
-## HHVM Dockerfile
+## PHP Dockerfile
 
 
 This repository contains **Dockerfile** of [PHP](http://php.net/) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/julienvincent/nginx-php/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
