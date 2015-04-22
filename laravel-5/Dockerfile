@@ -12,5 +12,11 @@ COPY container/default.conf /etc/nginx/conf.d/default.conf
 COPY container/index.php /data/www/index.php
 
 # Container Config
-CMD ["php", "artisan"]
+
+VOLUME ["/data/www"]
+
+WORKDIR /data/www
+ENTRYPOINT ["php", "artisan"]
+CMD ["--help"]
+
 EXPOSE 80 443
