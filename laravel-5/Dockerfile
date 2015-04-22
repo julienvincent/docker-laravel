@@ -15,8 +15,4 @@ COPY container/index.php /data/www/index.php
 
 VOLUME ["/data/www"]
 
-WORKDIR /data/www
-ENTRYPOINT ["php", "artisan"]
-CMD ["--help"]
-
 EXPOSE 80 443
