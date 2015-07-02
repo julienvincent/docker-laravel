@@ -4,7 +4,7 @@
 # https://github.com/julienvincent/docker-laravel/laravel-5
 #
 
-FROM julienvincent/nginx-php
+FROM julienvincent/nginx-hhvm
 MAINTAINER Julien Vincent "julienlucvincent@gmail.com"
 
 # Add configs
