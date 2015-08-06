@@ -6,7 +6,7 @@ This repository contains an automated **Dockerfile** of [julienvincent/nginx-hhv
 
 + `latest` alias for :hhvm
 + `php`
-+ `hhvm`
++ `hhvm` at version 3.8.1
 
 ### Base Docker Image
 
