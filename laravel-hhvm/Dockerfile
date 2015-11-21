@@ -1,6 +1,6 @@
 # julienvincent/laravel:php
 
-FROM julienvincent/nginx-hhvm:3.8.1
+FROM julienvincent/nginx-hhvm:3.10.1
 MAINTAINER Julien Vincent "julienlucvincent@gmail.com"
 
 # Copy config
