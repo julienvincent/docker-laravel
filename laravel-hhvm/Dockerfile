@@ -5,9 +5,6 @@ MAINTAINER Julien Vincent "julienlucvincent@gmail.com"
 
 # Copy config
 COPY container/default.conf /etc/nginx/conf.d/default.conf
-COPY container/crontab /etc/crontab
-
-RUN crontab /etc/crontab
 
 VOLUME ["/data/www"]
 EXPOSE 80 443
